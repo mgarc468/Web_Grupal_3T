@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <ul class="navbar">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="quienesSomos.html">Quienes somos</a>
+                </li>
+                <li>
+                    <a href="servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </header>
+        <main class="home">
+            <section>
+                <h1>Formulario de Contacto</h1>
+                <form class="fieldset-experiencia-general" action="mailto:miguelangelgarciamarcos83@gmail.com" method="post">
+                    <label class="label_contacto" for="name"><b>Nombre:</b></label>
+                    <input class="input_contacto" type="text" id="name" name="name" required>
+                    <label class="label_contacto" for="name"><b>Apellidos:</b></label>
+                    <input class="input_contacto" type="text" id="name" name="name" required>
+                    <label class="label_contacto" for="email"><b>Correo Electrónico:</b></label>
+                    <input class="input_contacto" type="email" id="email" name="email" required>
+                    <label for="curso-realizado"><b>¿Qué FP estás cursando?</b></label>
+                        <select name="curso-realizado" id="curso-realizado">
+                            <option value="FP DAM">FP DAM</option>
+                            <option value="FP ASIR">FP ASIR</option>
+                            <option value="FP DAW">FP DAW</option>
+                        </select>
+                    <label for="curso-realizado"><b>¿En que curso estás?</b></label>
+                            <select name="curso-realizado" id="curso-realizado">
+                            <option value="FP DAM">Primero</option>
+                            <option value="FP ASIR">Segundo</option>
+                            <option value="FP DAW">En segundo con asignaturas también de primero</option>
+                        </select>
+                    <label class="label_contacto" for="message"><b>Mensaje:</b></label>
+                        <textarea class="textarea_contacto" id="message" name="message" rows="5" required></textarea>
+                </form>
+                <button>Enviar</button>
+                <div class="letra">
+                <b><br>Puede contactar con nosotros a través del formulario
+                <br>
+                <br>Nos pondremos en contacto 
+                <br>con usted lo antes posible.</b>
+                </div>
+            </section>
+            <aside>
+                <h2>Dudas frecuentes</h2>
+                <div class="widget">
+                    <h2>Opiniones de la clase de programacion</h2>
+                    <p>Descubre lo que tienen que decir los alumnos de DAM sobre la clase de programacion impartida por Tomas Escudero Delgado</p>
+                </div>
+                <div class="widget">
+                    <h2>Opiniones de la clase de Sistemas Informaticos</h2>
+                    <p>Descubre lo que tienen que decir los alumnos de DAM sobre la clase de Sistemas Informaticos impartida por Alberto Casetedo Espeso</p>
+                </div>
+                <div class="widget">
+                    <h2>Opiniones de la clase de Lenguaje de marcas</h2>
+                    <p>Descubre lo que tienen que decir los alumnos de DAM sobre la clase de Lenguaje de Marcas impartida por Raul Rodriguez Mercado</p>
+                </div>
+                <div class="widget">
+                    <h2>Opiniones de la clase de Base de datos</h2>
+                    <p>Descubre lo que tienen que decir los alumnos de DAM sobre la clase de Bases de Datos impartida por Raul Salgado Vilas</p>
+                </div>
+            </aside>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="copyright">
+            <p>&copy; Web Personal creada para la materia de Lenguaje de Marcas del CFGS DAM</p>
+        </div>
+    </footer>
+</body>
+</html>

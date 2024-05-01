@@ -1,0 +1,84 @@
+
+@font-face {
+    font-family: 'compu';
+    src: url(font/nunito.light.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'compuBold';
+    src: url(font/nunito.extrabold.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    background-color: #c2fbef;
+    margin: 0%;
+    font-family: 'compu';
+}
+nav{
+    width: auto;
+    height: 150px;
+    background-color: #8E4A49;
+}
+.donde{
+    margin: auto;
+    width: 80vw;
+}
+@media screen and (min-width:992px) {
+    .donde{
+        width: auto;
+    }
+}
+.donde h1, div.txt{
+    text-align: center;
+}
+@media screen and (min-width:798px) {
+    h1{
+        font-size: 4vw;
+    }
+    .txt{
+        font-size: 2.5vw;
+    }
+}
+@media screen and (min-width:1080px) {
+    h1{
+        font-size: 3vw;
+    }
+    .txt{
+        font-size: 2vw;
+    }
+}
+div.map{
+    width: 100%; 
+}
+div.donde__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.donde__container img{
+    width: 80%;
+    margin-top: 1vw;
+}
+@media screen and (min-width:992px) {
+    div.donde__container{
+        flex-direction: row;
+    }
+    div.donde__container img{
+        margin: auto;
+        width: 30vw;
+        height: 25vw;
+    }
+}
+/*footer*/
+footer{
+    text-align: center;
+    background-color: #5f464b;
+}
+footer>p.footer__txt{
+    font-family: 'compuBold';
+    color: #c2fbef;
+    font-size: 10px;
+}
